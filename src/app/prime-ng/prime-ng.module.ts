@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { MenuModule } from 'primeng/menu';
+import { MenubarModule } from 'primeng/menubar';
 
 
 
@@ -10,7 +11,8 @@ import { MenuModule } from 'primeng/menu';
 
   ],
   exports: [
-    MenuModule
+    MenuModule,
+    MenubarModule
   ]
 
 })
