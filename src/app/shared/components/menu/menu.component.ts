@@ -18,14 +18,17 @@ export class MenuComponent {
         items: [
           {
             label: "Textos y flechas",
+            routerLink: "/",
             icon: "pi pi-align-left"
           },
           {
             label: "Numeros",
+            routerLink: "/numbers",
             icon: "pi pi-dollar"
           },
           {
             label: "No comunes",
+            routerLink: "/uncommon",
             icon: "pi pi-globe"
           }
         ]
