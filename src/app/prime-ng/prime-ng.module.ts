@@ -4,6 +4,7 @@ import { MenubarModule } from 'primeng/menubar';
 import { CardModule } from 'primeng/card';
 import { FieldsetModule } from 'primeng/fieldset';
 import { PanelModule } from 'primeng/panel';
+import { ButtonModule } from 'primeng/button'
 
 
 
@@ -21,8 +22,8 @@ import { PanelModule } from 'primeng/panel';
     CardModule,
     FieldsetModule,
     MenubarModule,
-    PanelModule
-
+    PanelModule,
+    ButtonModule
   ]
 
 })
